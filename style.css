@@ -1,0 +1,103 @@
+/* CO3133 course project site — plain, functional styling */
+
+* { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  font-family: -apple-system, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+  color: #222;
+  background: #ffffff;
+  line-height: 1.55;
+}
+
+.page {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 48px 24px 80px;
+}
+
+a {
+  color: #1a4b8c;
+  text-decoration: none;
+}
+a:hover { text-decoration: underline; }
+
+.back { margin: 0 0 24px; font-size: 0.9rem; }
+
+header.site-header,
+header.assignment-header {
+  border-bottom: 2px solid #1a4b8c;
+  padding-bottom: 20px;
+}
+
+.institution, .faculty {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #555;
+}
+
+header h1 {
+  font-size: 1.6rem;
+  margin: 10px 0 6px;
+}
+
+.course-meta, .sub {
+  margin: 0;
+  color: #555;
+  font-size: 0.95rem;
+}
+
+section { margin-top: 40px; }
+
+h2 {
+  font-size: 1.1rem;
+  margin-bottom: 10px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #ddd;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 8px;
+}
+th, td {
+  text-align: left;
+  padding: 6px 10px 6px 0;
+  border-bottom: 1px solid #eee;
+  font-size: 0.95rem;
+}
+th { color: #555; font-weight: 600; }
+
+.repo-link { margin-top: 14px; font-size: 0.95rem; }
+
+.assignment-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.assignment-list li {
+  padding: 10px 0;
+  border-bottom: 1px solid #eee;
+}
+.status {
+  color: #777;
+  font-size: 0.85rem;
+  display: block;
+  margin-top: 2px;
+}
+
+.todo {
+  color: #a15c00;
+  background: #fff6e8;
+  border: 1px solid #f0dfc0;
+  padding: 10px 12px;
+  border-radius: 3px;
+  font-size: 0.9rem;
+}
+
+footer {
+  margin-top: 64px;
+  font-size: 0.85rem;
+  color: #999;
+}
